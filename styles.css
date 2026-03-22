@@ -1,0 +1,78 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    color: rgb(131, 33, 131);
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+
+.checklist-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+ol {
+    list-style-type: decimal;
+    margin-right: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+.clipboard-img {
+    width: 150px;
+}
+
+p {
+    text-align: left;
+    margin-bottom: 30px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.two-columns {
+    display: flex;
+    gap: 30px;
+}
+
+.left-column, .right-column {
+    flex: 1;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+ul li::before {
+    content: "►";
+    color: #64b5f6;
+    margin-right: 10px;
+}
